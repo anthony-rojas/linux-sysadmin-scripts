@@ -1,0 +1,1 @@
+0 * * * * /home/anthony/linux-sysadmin-scripts/scripts/check_disk.sh 80 >> /home/anthony/logs/check_disk.log 2>&1
