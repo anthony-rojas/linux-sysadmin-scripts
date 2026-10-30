@@ -14,4 +14,3 @@ echo "Backup creado: $ARCHIVO"
 
 find "$DEST" -name 'backup_*.tar.gz' -mtime +"$DAYS" -delete
 echo "Backups de más de $DAYS días eliminados"
-EOF

@@ -11,10 +11,17 @@ Uso: '.scripts/check_disk.sh [Umbral]'
 
 
 
-'scripts/backup.sh': crea un backup comprimido con fecha y borra los de mas
+'scripts/backup.sh': Crea un backup comprimido con fecha y borra los de mas
 de 7 dias de uso.
 
 Uso: '.scripts/backup.sh <Origen> [Destino]'
+
+
+
+'scripts/create_users.sh': Crea usuarios desde un archivo CSV(Usuario,nombre),
+incluye clave temporal con openssl y cambio obligatorio en el primer acceso.
+
+Uso: 'sudo ./scripts/create_users.sh <archivo.csv>'
 
 
 
